@@ -1,1 +1,57 @@
 
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .status-container {
+      text-align: center;
+      padding: 2rem 3rem;
+    }
+
+    .status {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 1rem 0;
+    }
+
+    .up {
+      color: #fff;
+      background-color: #16a34a; /* green */
+    }
+
+    .down {
+      color: #fff;
+      background-color: #dc2626; /* red */
+    }
+
+    .label {
+      font-size: 1rem;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body class="up">
+  <div class="status-container up">
+    <div class="label">Server Status</div>
+    <div class="status">Up</div>
+    <!-- If server is down, replace above with -->
+    <!-- <div class="status down">Down</div> -->
+  </div>
+</body>
+</html>
+	
